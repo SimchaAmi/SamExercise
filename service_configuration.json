@@ -1,0 +1,11 @@
+{
+  "token": "Token I_am_under_stress_when_I_test",
+  "request": {
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "base_url": "https://microcks.gin.dev.securingsam.io/rest/Reputation+API/1.0.0/domain/ranking",
+    "timeout": 30
+  }
+}
