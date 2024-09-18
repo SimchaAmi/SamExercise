@@ -54,8 +54,8 @@ python main.py --threads 10 --num_domains 50 --timeout 30 --domains_file /path/t
 | `--num_domains`     | Number of domains to test (max 5000)                                     | 20                                      |
 | `--timeout`         | Timeout for the entire stress test in seconds                            | 10                                      |
 | `--domains`         | Space-separated list of domains to test (overrides domains from the file) | []                                      |
-| `--conf_file`       | Path to the service configuration file                                   | `C:\GIT\SAM\service_configuration.json` |
-| `--domains_file`    | Path to a JSON file containing domains                                   | `C:\GIT\SAM\domains.json`               |
+| `--conf_file`       | Path to the service configuration file                                   | `ROOT_DIR\service_configuration.json` |
+| `--domains_file`    | Path to a JSON file containing domains                                   | `ROOT_DIR\domains.json`               |
 | `--request_timeout` | Timeout for individual requests (in seconds)                             | 1                                       |
 | `--csv`             | create csv file                                                          | True                                       |
 
